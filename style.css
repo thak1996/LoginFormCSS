@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -8,3 +7,52 @@
   text-decoration: none;
 }
 
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-family-poppins: 'Poppins', sans-serif;
+  --border-primary: 1px solid #868686;
+  --border-focus: 1px solid #FFC632;
+  --bgtest: #ffffff;  
+  --border: 0.1px solid var(--text-base);
+}
+main {
+  display: flex;
+  background-color: var(--background);
+  width: 100%;
+}
+article {
+  height: 100vh;
+  flex:1;
+}
+/* Parte Do ícone e text / Todos os Recursos dentro do login foram separados */
+.container-aside-ícone {
+  color: var(--text-base);
+  display: flex;
+  align-items: center;
+  height: 10%;
+}
+aside img {
+  height: 4vh;
+  margin-left: 2rem;
+  margin-right: .5rem;
+}
+aside .campin {
+  font-family: var(--font-family-poppins);
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--primary-color);
+}
+img {
+  height: 100vh;
+}
+
+.container-div-login-secundário {
+  width: 100%;
+  height: 90;
+}
