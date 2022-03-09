@@ -2,7 +2,6 @@
 <html lang="PT-BR">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Login Form CSS">
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
@@ -15,17 +14,45 @@
         <img src="/imgs/favicon.ico" alt="ìcone">
         <p class="campin">camp.in</p>
       </aside>
-      <aside class="container-login">
+        <aside class="container-login">
         <div class="container-conteudo-central">
-          <div class=""></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-
+          <div class="container-info-login">
+            <label class="ícone-text">
+              <img src="imgs/log-in.svg" alt="Ícone do Login" class="img-login">
+              <p class="login-text">Faça seu Login</p>
+            </label>
+            <p class="info-cadastro">Entre com suas informações de cadastro.</p>
+          </div>
+          <div class="container-email">
+            <p class="text-email">E-mail</p>
+            <label class="input-email">
+              <!-- <img src="/imgs/mail.svg" alt="Ícone E-mail" class="icone-email"> -->
+              <input type="email" id="email" placeholder="Digite seu E-mail" name="email">
+            </label>
+          </div>
+          <div class="container-senha">
+            <p class="text-senha">Senha</p>
+            <label class="input-senha">
+              <!-- <img src="/imgs/lock.svg" alt="Ícone Cadeado" class="icone-cadeado"> -->
+              <input type="password" id="senha" placeholder="Digite sua Senha" name="senha">
+              <!-- <img src="imgs/eye.svg" alt="Ícone de Visibilidade da Senha" class="icone-olho"> -->
+            </label>
+          </div>
+          <div class="container-checkbox-esquecisenha">
+            <label class="container-checkbox">
+              <input type="checkbox" id="checkbox" name="Lembrar-me" value="lermbarme">
+              <span for="checkbox" class="checkbox">Lembrar-me</span>
+            </label>
+            <a href="#" class="esqueciminhasenha">Esqueci minha senha</a>
+          </div>
+          <div class="container-button">
+            <button class="button">ENTRAR</button>
+          </div>
+          <div class="container-registrese">
+            <a href="#" class="registrese">Não tem conta? <strong>Registre-se</strong></a>
+          </div>
         </div>
-      </aside>
+        </aside>
     </article>
     <article class="container-layout-img">
       <img src="imgs/side-image-2x.jpg" alt="Imagem do Carro">
